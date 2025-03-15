@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% comment %} {% include "header.html" %} {% endcomment %}
+
+{% block content  %}
+    <section class="hero">
+        <h1>Welcome to MySchool</h1>
+        <p>Shaping the leaders of tomorrow with world-class education.</p>
+        <a href="/admissions" class="btn">Enroll Now</a>
+    </section>
+    
+    <section class="welcome">
+        <div class="container">
+            <h2>Why Choose MySchool?</h2>
+            <p>We provide a nurturing environment where students excel academically, socially, and personally.</p>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <img src="/static/images/faculty.jpg" alt="Expert Faculty">
+            <h2>Expert Faculty</h2>
+            <p>Our teachers are highly qualified and committed to student success.</p>
+        </div>
+        <div class="feature">
+            <img src="/static/images/facilities.jpg" alt="Modern Facilities">
+            <h2>State-of-the-Art Facilities</h2>
+            <p>Our campus is equipped with the latest technology and resources.</p>
+        </div>
+        <div class="feature">
+            <img src="/static/images/activities.jpg" alt="Extracurricular Activities">
+            <h2>Comprehensive Programs</h2>
+            <p>We offer a balanced curriculum with academics, sports, and arts.</p>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"MySchool has provided me with an excellent education and the support to reach my goals."</p>
+            <h4>- Alex Johnson, Graduate</h4>
+        </div>
+        <div class="testimonial">
+            <p>"The faculty and facilities are top-notch, making learning engaging and fun."</p>
+            <h4>- Sophia Lee, Student</h4>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h2>Join MySchool Today!</h2>
+        <p>Experience a world-class education that prepares you for the future.</p>
+        <a href="admissions.html" class="btn">Apply Now</a>
+    </section>
+
+
+{% endblock  %}
+
+    
+{% comment %} {% include "footer.html" %}     {% endcomment %}

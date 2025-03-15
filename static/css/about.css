@@ -1,0 +1,207 @@
+     /* General Styles */
+     body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #f4f4f9;
+        color: #333;
+    }
+    
+    /* Navigation Bar */
+    header {
+        background: #2C3E50;
+        color: white;
+        padding: 15px 0;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    
+    .nav-links li {
+        display: inline;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .nav-links a:hover {
+        color: #f1c40f;
+    }
+    
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+        background: linear-gradient(to right, #007bff, #2C3E50);
+        color: white;
+    }
+    
+    .hero h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    /* About Content */
+    .about-content {
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+    }
+    
+    .about-content h2 {
+        font-size: 36px;
+        color: #2C3E50;
+        margin-bottom: 15px;
+    }
+    
+    .about-content p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    /* Core Values */
+    .core-values {
+        text-align: center;
+        padding: 60px 20px;
+        background: #f8f9fa;
+    }
+    
+    .core-values h2 {
+        font-size: 36px;
+        color: #2C3E50;
+        margin-bottom: 20px;
+    }
+    
+    .values-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .value-box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 250px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .value-box:hover {
+        transform: scale(1.05);
+    }
+    
+    .value-box h3 {
+        color: #007bff;
+        font-size: 22px;
+    }
+    
+    /* Team Section */
+    .team {
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+    }
+    
+    .team h2 {
+        font-size: 36px;
+        color: #2C3E50;
+        margin-bottom: 20px;
+    }
+    
+    .team-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .team-member {
+        text-align: center;
+    }
+    
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .team-member h3 {
+        color: #007bff;
+        font-size: 20px;
+    }
+    
+    /* Footer */
+    footer {
+        background: #2C3E50;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .footer-section {
+        max-width: 300px;
+        text-align: left;
+    }
+    
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-section ul li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+    }
+    
+    .footer-section ul li a:hover {
+        color: #f1c40f;
+    }
+    
+    .footer-bottom {
+        margin-top: 20px;
+        font-size: 14px;
+    }
