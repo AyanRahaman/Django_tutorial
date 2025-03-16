@@ -27,7 +27,8 @@ urlpatterns = [
     path('academics/',views.academics,name="academics"),
     path('admissions/',views.admissions,name="admissions"),
     path('contact/',views.contact,name="contact"),
-    path('userform/',views.userform,name="contact"),
+    path('userform/',views.userform,name="userform"),
+    path('submitform/',views.userform,name="submitform"),
     path('courses/',views.courses),
     # ========== FOR SLUG ==========
     # path('courses/<int:course_id>',views.courseDetails), ----- for int
